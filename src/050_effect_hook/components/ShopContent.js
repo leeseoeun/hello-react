@@ -5,7 +5,7 @@ function ShopContent(props) {
     return (
         <>
             <ContentDescription desc={props.desc}/>
-            <ContentList products={props.products}/>
+            <ContentList/>
         </>
     );
 }
