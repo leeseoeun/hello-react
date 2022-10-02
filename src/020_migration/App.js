@@ -5,11 +5,9 @@ import ShopHeader from './components/ShopHeader';
 
 function App() {
 
-  const menus = ['menu1', 'menu2', 'menu3', 'menu4',]
-
   return (
     <>
-      <ShopHeader menuItems={menus}/>
+      <ShopHeader/>
       <ShopBreadcrumb/>
       <ShopContent/>
     </>
